@@ -2,6 +2,8 @@ import React from 'react';
 import {Button, SafeAreaView, Text, View} from 'react-native';
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 import { createStackNavigator, TransitionPresets } from "../libs/react-navigation-stack";
+import SocketioExample from './Socket.io';
+import WebViewJavascriptResponse from './WebViewJavascriptResponse';
 
 // import {createStackNavigator, TransitionPresets} from 'react-navigation-stack';
 
@@ -121,6 +123,7 @@ const AppContainer = createAppContainer(MyStackNavigator);
 
 class App extends React.Component {
   render() {
+    return <SocketioExample />;
     // switch between Stack and Switch navigator
     //return <MySwitchNavigator />;
     return (
