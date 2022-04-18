@@ -1,6 +1,6 @@
 import React from 'react';
-import {StyleSheet, View} from 'react-native';
-import {WebView} from 'react-native-webview';
+import { StyleSheet, View } from 'react-native';
+import { WebView } from 'react-native-webview';
 
 class WebViewJavascriptResponse extends React.Component {
   constructor(props) {
@@ -34,11 +34,11 @@ class WebViewJavascriptResponse extends React.Component {
           onMessage={event => {
             console.log('onMessage', 'asdasd');
             let message = event.nativeEvent.data;
-            console.log('onMessage', {message});
+            console.log('onMessage', { message });
             alert(message);
             /* event.nativeEvent.data must be string, i.e. window.postMessage
-						should send only string.
-						* */
+            should send only string.
+            * */
           }}
         />
       </View>

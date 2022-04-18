@@ -56,32 +56,37 @@ class CompressVideo extends Component {
 
 
   openGallery = async () => {
-    ImageCropPicker.openCamera({
+    ImageCropPicker.openPicker({
       // width: 300,
       // height: 400,
       cropping: false,
-      mediaType: "video"
+      mediaType: 'video',
+      compressVideoPreset: 'Passthrough',
     }).then(image => {
-      console.log("Image::::", image);
+      console.log('Image::::', image);
       // this.setState({ fileUrl: image.path });
       const options = {
-        width: 720,
-        height: 1280,
-        bitrateMultiplier: 3,
-        saveToCameraRoll: true, // default is false, iOS only
-        saveWithCurrentDate: true, // default is false, iOS only
+        width: image.width * 0.5,
+        height: image.height * 0.5,
+        bitrateMultiplier: 4,
+        saveToCameraRoll: false, // default is false, iOS only
+        saveWithCurrentDate: false, // default is false, iOS only
         minimumBitrate: 300000,
         removeAudio: false, // default is false
       };
+      /* ProcessingManager.getVideoInfo(image.path)
+        .then((info) => console.log('getVideoInfo', info))
+        .catch(console.warn); */
       ProcessingManager.compress(image.path, options) // like VideoPlayer compress options
         .then((data) => {
-          console.log("ProcessingManager::::::", data);
-          this.uploadImage(data);
-        }).catch(e => {
+          console.log('ProcessingManager::::::', data);
+          this.uploadImage(data, data.split('/').pop());
+        })
+        .catch(e => {
           console.error(e);
         });
 
-      this.uploadImage(image.path);
+      // this.uploadImage(image.sourceURL, image.sourceURL.split('/').pop());
 
     });
   }
@@ -103,13 +108,16 @@ class CompressVideo extends Component {
           name: name,
         });
         console.log(fileToUpload);
-        let res = await fetch('http://testapi.newdevpoint.in/upload', {
-          method: 'post',
-          body: data,
-          headers: {
-            'Content-Type': 'multipart/form-data; ',
-          },
-        });
+        let res = await fetch(
+          'http://localhost:8000/?url=upload' /* 'http://testapi.newdevpoint.in/upload' */,
+          {
+            method: 'post',
+            body: data,
+            headers: {
+              'Content-Type': 'multipart/form-data',
+            },
+          });
+
         let responseJson = await res.json();
         console.log('Response:: ', responseJson);
         if (responseJson.status == 1) {
