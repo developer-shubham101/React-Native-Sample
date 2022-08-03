@@ -2,6 +2,9 @@ import React from 'react';
 import {Button, SafeAreaView, Text, View} from 'react-native';
 import {createAppContainer, createSwitchNavigator} from 'react-navigation';
 import { createStackNavigator, TransitionPresets } from "../libs/react-navigation-stack";
+import ImagePickerExample from './image-picker/ImagePickerExample';
+import LocationUpdate from './LocationUpdate';
+
 import SocketioExample from './Socket.io';
 import WebViewJavascriptResponse from './WebViewJavascriptResponse';
 
@@ -80,12 +83,14 @@ class ScreenThree extends React.Component {
 // Notice the head and back link on top of the screen
 const MyStackNavigator = createStackNavigator(
   {
+    // ImagePickerExample: ImagePickerExample,
+    LocationUpdate: LocationUpdate,
     routeOne: ScreenOne,
     routeTwo: ScreenTwo,
     routeThree: ScreenThree,
   },
   {
-    initialRouteName: 'routeOne',
+    // initialRouteName: 'main',
     // resetOnBlur: false,
     // backBehavior: 'history'
 
@@ -123,7 +128,8 @@ const AppContainer = createAppContainer(MyStackNavigator);
 
 class App extends React.Component {
   render() {
-    return <SocketioExample />;
+    return <AppContainer />;
+    // return <SocketioExample />;
     // switch between Stack and Switch navigator
     //return <MySwitchNavigator />;
     return (

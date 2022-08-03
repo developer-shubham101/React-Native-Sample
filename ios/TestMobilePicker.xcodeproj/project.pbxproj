@@ -8,10 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* TestMobilePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TestMobilePickerTests.m */; };
+		03FA571B936748EBA0DF9709 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8301D5397654E8AA9616F56 /* Roboto_medium.ttf */; };
+		04463A20EFB9436E9F29888A /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B3B4DD0545E4BF180CAD2A1 /* MaterialIcons.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		361A4D9D70E849E78E9730A6 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45A0AF1139B648A8A8124C7D /* Foundation.ttf */; };
+		37C8475D72C8463DA2282A53 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F250846BB826469B97A678CC /* AntDesign.ttf */; };
 		37FFA0B8DE3EABE67E70DAF4 /* libPods-TestMobilePicker-TestMobilePickerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFF35114EB0A1B7FFB8644B /* libPods-TestMobilePicker-TestMobilePickerTests.a */; };
+		50330E2068554B518E1DBAA0 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEFD8F18A39B4FDFBF68C04F /* FontAwesome5_Brands.ttf */; };
+		5A2FBB214A904CA7A62F75DC /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F96597E41CEC4DC2B06B24DC /* FontAwesome5_Regular.ttf */; };
+		5D4C7AC9C38344A0AE7EFD73 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41A39BAD283E40519A7E9B6B /* Roboto.ttf */; };
+		60408195DD604FE88C806509 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4111FD0ED384DBF93ABFCDE /* rubicon-icon-font.ttf */; };
+		6AC940E5E11440C9BADAF001 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1DD34925C264BB496961D3F /* Entypo.ttf */; };
+		6C9C3E10B7994459A2DE597D /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5998C9C37D9E45D68AA1CA16 /* MaterialCommunityIcons.ttf */; };
+		6E2CDDE806614C7E954AC8F1 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 096F21C1656B459B807C1173 /* FontAwesome.ttf */; };
+		708FC83A2A654324B1BE5A13 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 816C8FA440B044189812A14F /* Feather.ttf */; };
+		7444AAFED8CA4A8D99A906A4 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 496D0878B3354D8693831A65 /* FontAwesome5_Solid.ttf */; };
+		75A777072886A2A300889D8A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75A777062886A2A300889D8A /* GoogleService-Info.plist */; };
 		75B95E1626F9C42E0044A226 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B95E1526F9C42E0044A226 /* CoreMedia.framework */; };
 		75B95E1826F9C4350044A226 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B95E1726F9C4350044A226 /* CoreVideo.framework */; };
 		75B95E1A26F9C43F0044A226 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B95E1926F9C43F0044A226 /* OpenGLES.framework */; };
@@ -35,7 +49,12 @@
 		75B95E5A26F9D7C10044A226 /* RNVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B95E4A26F9D7C10044A226 /* RNVideoPlayer.swift */; };
 		75B95E5B26F9D7C10044A226 /* VideoProcessingGPUFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B95E4D26F9D7C10044A226 /* VideoProcessingGPUFilters.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9D037A89C645469F985A6735 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3B56D589F2C4640819366F1 /* Zocial.ttf */; };
+		A4FC8AF48E9A4BFDA8BA9C6C /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA091A88F7404DFBA3660A0E /* EvilIcons.ttf */; };
+		B18FD4A4159044EAB160BA42 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A9FB022264074232BC830A32 /* Ionicons.ttf */; };
+		BC568A439D704A61B54C3DDB /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CFED176598F403EB2AD4861 /* Octicons.ttf */; };
 		BF0F805CCE1DED8504A4331C /* libPods-TestMobilePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9760D14C7D76B32219DB51D6 /* libPods-TestMobilePicker.a */; };
+		E276C397BCF7454686BF3BC6 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA07BC118B2A43EBB9290A47 /* SimpleLineIcons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +109,7 @@
 		00E356EE1AD99517003FC87E /* TestMobilePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMobilePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* TestMobilePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMobilePickerTests.m; sourceTree = "<group>"; };
+		096F21C1656B459B807C1173 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* TestMobilePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMobilePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TestMobilePicker/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TestMobilePicker/AppDelegate.m; sourceTree = "<group>"; };
@@ -99,13 +119,20 @@
 		17934FC7E71918EF1D29DF6A /* Pods-TestMobilePicker-TestMobilePickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMobilePicker-TestMobilePickerTests.release.xcconfig"; path = "Target Support Files/Pods-TestMobilePicker-TestMobilePickerTests/Pods-TestMobilePicker-TestMobilePickerTests.release.xcconfig"; sourceTree = "<group>"; };
 		17B2307D8B1E544B9F86CD30 /* Pods-ShareExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.debug.xcconfig"; path = "Target Support Files/Pods-ShareExtension/Pods-ShareExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		2E4838C7006B7088347E8B5D /* Pods-ShareExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.release.xcconfig"; path = "Target Support Files/Pods-ShareExtension/Pods-ShareExtension.release.xcconfig"; sourceTree = "<group>"; };
+		41A39BAD283E40519A7E9B6B /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		45A0AF1139B648A8A8124C7D /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		496D0878B3354D8693831A65 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		4CFED176598F403EB2AD4861 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		5659FEDE8D620F540BFE5854 /* Pods-TestMobilePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMobilePicker.release.xcconfig"; path = "Target Support Files/Pods-TestMobilePicker/Pods-TestMobilePicker.release.xcconfig"; sourceTree = "<group>"; };
+		5998C9C37D9E45D68AA1CA16 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		6B3B4DD0545E4BF180CAD2A1 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		7295333D271B4659008614A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		7295333F271B4659008614A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7295334E271B46F9008614A3 /* ShareExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareExtension-Bridging-Header.h"; sourceTree = "<group>"; };
 		72953355271B477C008614A3 /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShareViewController.swift; path = "../../node_modules/react-native-share-menu/ios/ShareViewController.swift"; sourceTree = "<group>"; };
 		72953359271B47B1008614A3 /* ShareExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShareExtension.entitlements; sourceTree = "<group>"; };
 		7295335A271B47C7008614A3 /* TestMobilePicker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = TestMobilePicker.entitlements; path = TestMobilePicker/TestMobilePicker.entitlements; sourceTree = "<group>"; };
+		75A777062886A2A300889D8A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		75B95E0B26F9C3F80044A226 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../node_modules/react-native-video-processing/ios/GPUImage/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
 		75B95E1526F9C42E0044A226 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		75B95E1726F9C4350044A226 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
@@ -138,12 +165,23 @@
 		75B95E4B26F9D7C10044A226 /* RCTSwiftBridgeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTSwiftBridgeModule.h; sourceTree = "<group>"; };
 		75B95E4C26F9D7C10044A226 /* RNVideoProcessing-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNVideoProcessing-Bridging-Header.h"; sourceTree = "<group>"; };
 		75B95E4D26F9D7C10044A226 /* VideoProcessingGPUFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoProcessingGPUFilters.swift; sourceTree = "<group>"; };
+		816C8FA440B044189812A14F /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TestMobilePicker/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9760D14C7D76B32219DB51D6 /* libPods-TestMobilePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMobilePicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DD34925C264BB496961D3F /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		A9FB022264074232BC830A32 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		BEBE60A064AEAEF0E7168FD7 /* libPods-ShareExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShareExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA07BC118B2A43EBB9290A47 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		D4111FD0ED384DBF93ABFCDE /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		DA091A88F7404DFBA3660A0E /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		DDFF35114EB0A1B7FFB8644B /* libPods-TestMobilePicker-TestMobilePickerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMobilePicker-TestMobilePickerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EEFD8F18A39B4FDFBF68C04F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		F00A96DE9583D7F32A539744 /* Pods-TestMobilePicker-TestMobilePickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMobilePicker-TestMobilePickerTests.debug.xcconfig"; path = "Target Support Files/Pods-TestMobilePicker-TestMobilePickerTests/Pods-TestMobilePicker-TestMobilePickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F250846BB826469B97A678CC /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		F3B56D589F2C4640819366F1 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		F8301D5397654E8AA9616F56 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		F96597E41CEC4DC2B06B24DC /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		F99C75AB1C401200E288FF67 /* Pods-TestMobilePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMobilePicker.debug.xcconfig"; path = "Target Support Files/Pods-TestMobilePicker/Pods-TestMobilePicker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -310,6 +348,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				75A777062886A2A300889D8A /* GoogleService-Info.plist */,
 				75B95E3126F9D7C10044A226 /* RNVideoProcessing */,
 				75B95E0B26F9C3F80044A226 /* GPUImage.xcodeproj */,
 				13B07FAE1A68108700A75B9A /* TestMobilePicker */,
@@ -319,6 +358,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				C2A3DFEBEF6B16DC40096982 /* Pods */,
+				CB7CA8ED3E54436AA2C423DF /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -345,6 +385,31 @@
 				2E4838C7006B7088347E8B5D /* Pods-ShareExtension.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB7CA8ED3E54436AA2C423DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F250846BB826469B97A678CC /* AntDesign.ttf */,
+				A1DD34925C264BB496961D3F /* Entypo.ttf */,
+				DA091A88F7404DFBA3660A0E /* EvilIcons.ttf */,
+				816C8FA440B044189812A14F /* Feather.ttf */,
+				096F21C1656B459B807C1173 /* FontAwesome.ttf */,
+				EEFD8F18A39B4FDFBF68C04F /* FontAwesome5_Brands.ttf */,
+				F96597E41CEC4DC2B06B24DC /* FontAwesome5_Regular.ttf */,
+				496D0878B3354D8693831A65 /* FontAwesome5_Solid.ttf */,
+				45A0AF1139B648A8A8124C7D /* Foundation.ttf */,
+				A9FB022264074232BC830A32 /* Ionicons.ttf */,
+				5998C9C37D9E45D68AA1CA16 /* MaterialCommunityIcons.ttf */,
+				6B3B4DD0545E4BF180CAD2A1 /* MaterialIcons.ttf */,
+				4CFED176598F403EB2AD4861 /* Octicons.ttf */,
+				F8301D5397654E8AA9616F56 /* Roboto_medium.ttf */,
+				41A39BAD283E40519A7E9B6B /* Roboto.ttf */,
+				D4111FD0ED384DBF93ABFCDE /* rubicon-icon-font.ttf */,
+				CA07BC118B2A43EBB9290A47 /* SimpleLineIcons.ttf */,
+				F3B56D589F2C4640819366F1 /* Zocial.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,6 +450,7 @@
 				B33AB45419DB06423D1F791B /* [CP] Copy Pods Resources */,
 				75B95E2C26F9C74C0044A226 /* Embed Frameworks */,
 				72953343271B4659008614A3 /* Embed App Extensions */,
+				E5F5CE63AD1E2A546A1860E9 /* [CP-User] [RNFB] Core Configuration */,
 			);
 			buildRules = (
 			);
@@ -469,6 +535,25 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				37C8475D72C8463DA2282A53 /* AntDesign.ttf in Resources */,
+				6AC940E5E11440C9BADAF001 /* Entypo.ttf in Resources */,
+				A4FC8AF48E9A4BFDA8BA9C6C /* EvilIcons.ttf in Resources */,
+				708FC83A2A654324B1BE5A13 /* Feather.ttf in Resources */,
+				75A777072886A2A300889D8A /* GoogleService-Info.plist in Resources */,
+				6E2CDDE806614C7E954AC8F1 /* FontAwesome.ttf in Resources */,
+				50330E2068554B518E1DBAA0 /* FontAwesome5_Brands.ttf in Resources */,
+				5A2FBB214A904CA7A62F75DC /* FontAwesome5_Regular.ttf in Resources */,
+				7444AAFED8CA4A8D99A906A4 /* FontAwesome5_Solid.ttf in Resources */,
+				361A4D9D70E849E78E9730A6 /* Foundation.ttf in Resources */,
+				B18FD4A4159044EAB160BA42 /* Ionicons.ttf in Resources */,
+				6C9C3E10B7994459A2DE597D /* MaterialCommunityIcons.ttf in Resources */,
+				04463A20EFB9436E9F29888A /* MaterialIcons.ttf in Resources */,
+				BC568A439D704A61B54C3DDB /* Octicons.ttf in Resources */,
+				03FA571B936748EBA0DF9709 /* Roboto_medium.ttf in Resources */,
+				5D4C7AC9C38344A0AE7EFD73 /* Roboto.ttf in Resources */,
+				60408195DD604FE88C806509 /* rubicon-icon-font.ttf in Resources */,
+				E276C397BCF7454686BF3BC6 /* SimpleLineIcons.ttf in Resources */,
+				9D037A89C645469F985A6735 /* Zocial.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,6 +685,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestMobilePicker/Pods-TestMobilePicker-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		E5F5CE63AD1E2A546A1860E9 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -740,7 +838,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = TestMobilePicker/TestMobilePicker.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WY38GRXKNN;
+				DEVELOPMENT_TEAM = 55DJQPG6M9;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TestMobilePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -752,7 +850,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.TestMobilePicker-";
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.TestMobilePicker;
 				PRODUCT_NAME = TestMobilePicker;
 				SWIFT_OBJC_BRIDGING_HEADER = "RNVideoProcessing/TestMobilePicker-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -770,7 +868,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = TestMobilePicker/TestMobilePicker.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = WY38GRXKNN;
+				DEVELOPMENT_TEAM = 55DJQPG6M9;
 				INFOPLIST_FILE = TestMobilePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -781,7 +879,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.TestMobilePicker-";
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.TestMobilePicker;
 				PRODUCT_NAME = TestMobilePicker;
 				SWIFT_OBJC_BRIDGING_HEADER = "RNVideoProcessing/TestMobilePicker-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
